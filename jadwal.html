@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jadwal Kegiatan - PKKMB Polinela 2025</title>
+    <link rel="stylesheet" href="./css/jadwal.css " />
+</head>
+
+<body>
+    <nav class="sidebar">
+        <img src="foto/logokampus.png" alt="logo" class="logo-kampus">
+        <h2>PKKMB Polinela 2025</h2>
+        <ul>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="absensi.html" >Absensi</a></li>
+            <li><a href="jadwal.html"class="active">Jadwal</a></li>
+            <li><a href="riwayat.html">Riwayat Absensi</a></li>
+            <li><a href="login.html" onclick="return confirm('Anda yakin ingin logout?')">Logout</a></li>
+        </ul>
+    </nav>
+
+    <div class="main-content">
+        <header>
+            <h1>Jadwal Kegiatan PKKMB 2025</h1>
+        </header>
+
+        <div class="action-buttons">
+            <button class="green">Tambah Jadwal</button>
+            <button class="blue">Cetak Jadwal</button>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Hari / Tanggal</th>
+                    <th>Waktu</th>
+                    <th>Kegiatan</th>
+                    <th>Tempat</th>
+                    <th>Aksi</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Senin, 19 Agustus 2025</td>
+                    <td>07.00 - 08.30</td>
+                    <td>Pembukaan PKKMB</td>
+                    <td>Aula Polinela</td>
+                    <td>
+                        <button class="orange">Edit</button>
+                        <button class="red">Hapus</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <footer>
+            <p>&copy; Politeknik Negeri Lampung</p>
+        </footer>
+    </div>
+</body>
+
+</html>

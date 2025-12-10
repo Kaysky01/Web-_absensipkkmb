@@ -1,0 +1,166 @@
+body {
+    width: 1530px;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    background-color: #f5f6fa;
+}
+
+.sidebar {
+    width: 220px;
+    background-color: #2c3e50;
+    color: white;
+    height: 100vh;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 15px 0;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.sidebar ul li a.active,
+.sidebar ul li a:hover {
+    background-color: #576879;
+}
+
+.main-content {
+    flex: 1;
+    padding: 30px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 24px;
+    color: #2c3e50;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table th,
+table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+table th {
+    background-color: #2980b9;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 14px;
+    color: #555;
+}
+
+footer a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.btn {
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.logo-kampus {
+    width: 80px;
+    margin-left: 65px;
+
+}
+
+.btn.add {
+    background-color: #28a745;
+}
+
+.btn.print {
+    background-color: #007bff;
+}
+
+.btn.edit {
+    background-color: #fd7e14;
+}
+
+.btn.delete {
+    background-color: #dc3545;
+}
+.btn.add:hover {
+    background-color: #218838;
+}
+
+.btn.print:hover {
+    background-color: #0056b3;
+}
+
+.btn.edit:hover {
+    background-color: #e67e22;
+}
+
+.btn.delete:hover {
+    background-color: #c82333;
+}
+
+
+
+.btn:active {
+    transform: scale(0.98);
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn:focus-visible {
+    outline: 2px solid #007bff;
+    outline-offset: 2px;
+}
+
+.btn:focus:not(:focus-visible) {
+    outline: none;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
